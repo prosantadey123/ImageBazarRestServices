@@ -114,7 +114,7 @@ public class ImageBazarRestController {
 	            System.out.println("The sum is=" + sum);
 	            connection.eval("source('E:/MyScript2.R')");
 	            int data = connection.eval("myAdd()").asInteger();
-	            System.out.println("The data is=" + data);
+	            System.out.println("The data is = " + data);
 	        } catch (RserveException e) {
 	            e.printStackTrace();
 	        } catch (REXPMismatchException e) {
